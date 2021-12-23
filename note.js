@@ -24,7 +24,7 @@ yargs.command({
   }
 }).command({
   command: 'remove',
-  desc: 'remove a notes',
+  desc: 'remove a note',
   builder: {
     title: {
       desc: "Note title",
